@@ -14,3 +14,8 @@ curtoBt.addEventListener('click', () =>{
 longoBt.addEventListener('click', () => {
     html.setAttribute('data-contexto', 'descanso-longo')
 })
+
+const meuBotao = document.getElementById("app__card-list-item");
+meuBotao.addEventListener("click", function() {
+    alert("O botão foi clicado!");
+});
