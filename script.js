@@ -34,13 +34,13 @@ function alterarContexto (contexto){
             break;
         case "descanso-curto":
             titulo.innerHTML = `
-            Que tal dar uma respirada?
+            Que tal dar uma respirada?<br>
             <strong class="app__title-strong">faça uma pausa curta.</strong>
             `
             break;
         case "descanso-longo":
             titulo.innerHTML =`
-            Hora de voltar à superfície.
+            Hora de voltar à superfície.<br>
             <strong class="app__title-strong"> Faça uma pausa longa.</strong>
             `
         default:
